@@ -9,7 +9,7 @@ Django==3.0.4
 filelock==3.0.12
 Flask==1.1.2
 future==0.18.2
-hs-test-python==2.0.1
+
 isort==4.3.21
 itsdangerous==1.1.0
 Jinja2==2.11.2
