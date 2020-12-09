@@ -124,3 +124,11 @@ particlesJS('particles-js',
 }
 
 );
+
+
+//************** */
+
+//var number= document.getElementById('in');
+//if (number<10){
+//window.alert("please enter number in range of 10")
+//}

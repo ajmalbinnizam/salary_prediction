@@ -15,8 +15,9 @@
 	<meta name="author" content="ajmalbinnizam">
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/logo1.png" type="image/x-icon">
-	<link rel="stylesheet" href="css/style.css" /> 
+    <link rel="icon" href="../static/images/logo1.svg" type="image/x-icon">
+	<link rel="stylesheet" href="../static/css/style.css" /> 
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
 </head> 
 
 <body> 
@@ -24,10 +25,10 @@
 	<div id="particles-js"> 
 		<div class="heading"> 
 			
-			<h1> 
-                YOUR ESTIMATED SALARY IS 
+			<h1 id="result"> 
+                {{prediction_text}}
             </h1> 
-            <p>NOTE: True happiness is to find your passion and money will follow you, you need not to worry about anything, </p>
+            <h2>NOTE: True happiness is to find your passion and money will follow you, you need not to worry about anything, </h2>
 		</div> 
 	</div> 
 
@@ -55,9 +56,9 @@
 
 	<!-- <script type="text/javascript" src="js/particles.min.js"> 
 	</script> -->
-    <script src= "js/particles.js"></script> 
+    <script src= "../static/js/particles.js"></script> 
     </script> 
-	<script type="text/javascript" src="js/app.js"> 
+	<script type="text/javascript" src="../static/js/app.js"> 
 	</script> 
 </body> 
 
