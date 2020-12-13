@@ -82,7 +82,7 @@ particlesJS('particles-js',
     }
   },
   "interactivity": {
-    "detect_on": "window",
+    "detect_on": "canvas",
     "events": {
       "onhover": {
         "enable": true,
@@ -90,7 +90,7 @@ particlesJS('particles-js',
       },
       "onclick": {
         "enable": true,
-        "mode": "bubble"
+        "mode": "repulsive"
       },
       "resize": true
     },
@@ -103,7 +103,7 @@ particlesJS('particles-js',
       },
       "bubble": {
         "distance": 200,
-        "size": 15,
+        "size": 10,
         "duration": 2,
         "opacity": 4,
         "speed": 4
